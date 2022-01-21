@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "java.com.sungan.authApi";
+option java_outer_classname = "UserProto";
+
+service User {
+  rpc GetUserInfo (UserInfoRequest) returns (UserInfoResponse) {}
+}
+
+message UserInfoRequest {
+  int64 userId = 1;
+}
+
+message UserInfoResponse {
+  int64 userId = 1;
+  string username = 2;
+  string profileImageUrl = 3;
+  string email = 4;
+  string avatar = 5;
+}
