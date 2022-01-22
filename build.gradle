@@ -7,6 +7,20 @@ plugins {
 group 'com.sungan'
 version '1.0-SNAPSHOT'
 
+afterEvaluate {
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                groupId = 'com'
+                artifactId = 'sungan'
+                version = '0.1'
+
+                from components.java
+            }
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
