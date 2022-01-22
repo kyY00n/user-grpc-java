@@ -1,4 +1,4 @@
-package java.com.sungan.userGrpc;
+package com.sungan.userGrpc;
 
 import static io.grpc.MethodDescriptor.generateFullMethodName;
 
@@ -15,29 +15,29 @@ public final class UserGrpc {
   public static final String SERVICE_NAME = "User";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<java.com.sungan.userGrpc.UserInfoRequest,
-      java.com.sungan.userGrpc.UserInfoResponse> getGetUserInfoMethod;
+  private static volatile io.grpc.MethodDescriptor<com.sungan.userGrpc.UserInfoRequest,
+      com.sungan.userGrpc.UserInfoResponse> getGetUserInfoMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "GetUserInfo",
-      requestType = java.com.sungan.userGrpc.UserInfoRequest.class,
-      responseType = java.com.sungan.userGrpc.UserInfoResponse.class,
+      requestType = com.sungan.userGrpc.UserInfoRequest.class,
+      responseType = com.sungan.userGrpc.UserInfoResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<java.com.sungan.userGrpc.UserInfoRequest,
-      java.com.sungan.userGrpc.UserInfoResponse> getGetUserInfoMethod() {
-    io.grpc.MethodDescriptor<java.com.sungan.userGrpc.UserInfoRequest, java.com.sungan.userGrpc.UserInfoResponse> getGetUserInfoMethod;
+  public static io.grpc.MethodDescriptor<com.sungan.userGrpc.UserInfoRequest,
+      com.sungan.userGrpc.UserInfoResponse> getGetUserInfoMethod() {
+    io.grpc.MethodDescriptor<com.sungan.userGrpc.UserInfoRequest, com.sungan.userGrpc.UserInfoResponse> getGetUserInfoMethod;
     if ((getGetUserInfoMethod = UserGrpc.getGetUserInfoMethod) == null) {
       synchronized (UserGrpc.class) {
         if ((getGetUserInfoMethod = UserGrpc.getGetUserInfoMethod) == null) {
           UserGrpc.getGetUserInfoMethod = getGetUserInfoMethod =
-              io.grpc.MethodDescriptor.<java.com.sungan.userGrpc.UserInfoRequest, java.com.sungan.userGrpc.UserInfoResponse>newBuilder()
+              io.grpc.MethodDescriptor.<com.sungan.userGrpc.UserInfoRequest, com.sungan.userGrpc.UserInfoResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "GetUserInfo"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  java.com.sungan.userGrpc.UserInfoRequest.getDefaultInstance()))
+                  com.sungan.userGrpc.UserInfoRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  java.com.sungan.userGrpc.UserInfoResponse.getDefaultInstance()))
+                  com.sungan.userGrpc.UserInfoResponse.getDefaultInstance()))
               .setSchemaDescriptor(new UserMethodDescriptorSupplier("GetUserInfo"))
               .build();
         }
@@ -96,8 +96,8 @@ public final class UserGrpc {
 
     /**
      */
-    public void getUserInfo(java.com.sungan.userGrpc.UserInfoRequest request,
-        io.grpc.stub.StreamObserver<java.com.sungan.userGrpc.UserInfoResponse> responseObserver) {
+    public void getUserInfo(com.sungan.userGrpc.UserInfoRequest request,
+        io.grpc.stub.StreamObserver<com.sungan.userGrpc.UserInfoResponse> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getGetUserInfoMethod(), responseObserver);
     }
 
@@ -107,8 +107,8 @@ public final class UserGrpc {
             getGetUserInfoMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                java.com.sungan.userGrpc.UserInfoRequest,
-                java.com.sungan.userGrpc.UserInfoResponse>(
+                com.sungan.userGrpc.UserInfoRequest,
+                com.sungan.userGrpc.UserInfoResponse>(
                   this, METHODID_GET_USER_INFO)))
           .build();
     }
@@ -130,8 +130,8 @@ public final class UserGrpc {
 
     /**
      */
-    public void getUserInfo(java.com.sungan.userGrpc.UserInfoRequest request,
-        io.grpc.stub.StreamObserver<java.com.sungan.userGrpc.UserInfoResponse> responseObserver) {
+    public void getUserInfo(com.sungan.userGrpc.UserInfoRequest request,
+        io.grpc.stub.StreamObserver<com.sungan.userGrpc.UserInfoResponse> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getGetUserInfoMethod(), getCallOptions()), request, responseObserver);
     }
@@ -153,7 +153,7 @@ public final class UserGrpc {
 
     /**
      */
-    public java.com.sungan.userGrpc.UserInfoResponse getUserInfo(java.com.sungan.userGrpc.UserInfoRequest request) {
+    public com.sungan.userGrpc.UserInfoResponse getUserInfo(com.sungan.userGrpc.UserInfoRequest request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getGetUserInfoMethod(), getCallOptions(), request);
     }
@@ -175,8 +175,8 @@ public final class UserGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<java.com.sungan.userGrpc.UserInfoResponse> getUserInfo(
-        java.com.sungan.userGrpc.UserInfoRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.sungan.userGrpc.UserInfoResponse> getUserInfo(
+        com.sungan.userGrpc.UserInfoRequest request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getGetUserInfoMethod(), getCallOptions()), request);
     }
@@ -202,8 +202,8 @@ public final class UserGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_GET_USER_INFO:
-          serviceImpl.getUserInfo((java.com.sungan.userGrpc.UserInfoRequest) request,
-              (io.grpc.stub.StreamObserver<java.com.sungan.userGrpc.UserInfoResponse>) responseObserver);
+          serviceImpl.getUserInfo((com.sungan.userGrpc.UserInfoRequest) request,
+              (io.grpc.stub.StreamObserver<com.sungan.userGrpc.UserInfoResponse>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -227,7 +227,7 @@ public final class UserGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return java.com.sungan.userGrpc.UserProto.getDescriptor();
+      return com.sungan.userGrpc.UserProto.getDescriptor();
     }
 
     @java.lang.Override
