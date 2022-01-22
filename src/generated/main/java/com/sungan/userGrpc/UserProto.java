@@ -15,15 +15,15 @@ public final class UserProto {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_UserInfoRequest_descriptor;
+    internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_UserInfoRequest_fieldAccessorTable;
+      internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_UserInfoResponse_descriptor;
+    internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoResponse_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_UserInfoResponse_fieldAccessorTable;
+      internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoResponse_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -33,11 +33,14 @@ public final class UserProto {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\nuser.proto\"!\n\017UserInfoRequest\022\016\n\006userI" +
+      "\n\nuser.proto\022&net.devh.boot.grpc.com.sun" +
+      "gan.userGrpc\"!\n\017UserInfoRequest\022\016\n\006userI" +
       "d\030\001 \001(\003\"l\n\020UserInfoResponse\022\016\n\006userId\030\001 " +
       "\001(\003\022\020\n\010username\030\002 \001(\t\022\027\n\017profileImageUrl" +
-      "\030\003 \001(\t\022\r\n\005email\030\004 \001(\t\022\016\n\006avatar\030\005 \001(\t2<\n" +
-      "\004User\0224\n\013GetUserInfo\022\020.UserInfoRequest\032\021" +
+      "\030\003 \001(\t\022\r\n\005email\030\004 \001(\t\022\016\n\006avatar\030\005 \001(\t2\213\001" +
+      "\n\004User\022\202\001\n\013GetUserInfo\0227.net.devh.boot.g" +
+      "rpc.com.sungan.userGrpc.UserInfoRequest\032" +
+      "8.net.devh.boot.grpc.com.sungan.userGrpc" +
       ".UserInfoResponse\"\000B\"\n\023com.sungan.userGr" +
       "pcB\tUserProtoP\001b\006proto3"
     };
@@ -45,17 +48,17 @@ public final class UserProto {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_UserInfoRequest_descriptor =
+    internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_UserInfoRequest_fieldAccessorTable = new
+    internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_UserInfoRequest_descriptor,
+        internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_descriptor,
         new java.lang.String[] { "UserId", });
-    internal_static_UserInfoResponse_descriptor =
+    internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoResponse_descriptor =
       getDescriptor().getMessageTypes().get(1);
-    internal_static_UserInfoResponse_fieldAccessorTable = new
+    internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoResponse_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_UserInfoResponse_descriptor,
+        internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoResponse_descriptor,
         new java.lang.String[] { "UserId", "Username", "ProfileImageUrl", "Email", "Avatar", });
   }
 

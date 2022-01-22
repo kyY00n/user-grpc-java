@@ -4,11 +4,11 @@
 package com.sungan.userGrpc;
 
 /**
- * Protobuf type {@code UserInfoRequest}
+ * Protobuf type {@code net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest}
  */
 public final class UserInfoRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:UserInfoRequest)
+    // @@protoc_insertion_point(message_implements:net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest)
     UserInfoRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserInfoRequest.newBuilder() to construct.
@@ -74,13 +74,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return com.sungan.userGrpc.UserProto.internal_static_UserInfoRequest_descriptor;
+    return com.sungan.userGrpc.UserProto.internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return com.sungan.userGrpc.UserProto.internal_static_UserInfoRequest_fieldAccessorTable
+    return com.sungan.userGrpc.UserProto.internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             com.sungan.userGrpc.UserInfoRequest.class, com.sungan.userGrpc.UserInfoRequest.Builder.class);
   }
@@ -253,21 +253,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code UserInfoRequest}
+   * Protobuf type {@code net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:UserInfoRequest)
+      // @@protoc_insertion_point(builder_implements:net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest)
       com.sungan.userGrpc.UserInfoRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.sungan.userGrpc.UserProto.internal_static_UserInfoRequest_descriptor;
+      return com.sungan.userGrpc.UserProto.internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.sungan.userGrpc.UserProto.internal_static_UserInfoRequest_fieldAccessorTable
+      return com.sungan.userGrpc.UserProto.internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               com.sungan.userGrpc.UserInfoRequest.class, com.sungan.userGrpc.UserInfoRequest.Builder.class);
     }
@@ -298,7 +298,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return com.sungan.userGrpc.UserProto.internal_static_UserInfoRequest_descriptor;
+      return com.sungan.userGrpc.UserProto.internal_static_net_devh_boot_grpc_com_sungan_userGrpc_UserInfoRequest_descriptor;
     }
 
     @java.lang.Override
@@ -442,10 +442,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:UserInfoRequest)
+    // @@protoc_insertion_point(builder_scope:net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:UserInfoRequest)
+  // @@protoc_insertion_point(class_scope:net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest)
   private static final com.sungan.userGrpc.UserInfoRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new com.sungan.userGrpc.UserInfoRequest();
