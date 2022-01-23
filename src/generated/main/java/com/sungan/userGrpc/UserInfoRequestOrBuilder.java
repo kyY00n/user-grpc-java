@@ -4,7 +4,7 @@
 package com.sungan.userGrpc;
 
 public interface UserInfoRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:net.devh.boot.grpc.com.sungan.userGrpc.UserInfoRequest)
+    // @@protoc_insertion_point(interface_extends:com.sungan.userGrpc.UserInfoRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

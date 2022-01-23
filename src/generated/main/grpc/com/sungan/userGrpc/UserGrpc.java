@@ -12,7 +12,7 @@ public final class UserGrpc {
 
   private UserGrpc() {}
 
-  public static final String SERVICE_NAME = "net.devh.boot.grpc.com.sungan.userGrpc.User";
+  public static final String SERVICE_NAME = "com.sungan.userGrpc.User";
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<com.sungan.userGrpc.UserInfoRequest,
